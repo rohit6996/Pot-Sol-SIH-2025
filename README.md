@@ -5,6 +5,20 @@ It connects with Twitter, Google Maps, Gmail, and PostgreSQL to provide smooth c
 
 ---
 
+## 🛠 Current Stage
+
+This is our MVP (Minimum Viable Product) for the (Smart India Hackathon)SIH Internal Round.
+Later, we will upgrade the system with:
+
+- AI-based complaint categorization
+- Mobile app integration
+- Push notifications
+- More Social Media app's integration
+- Loyalty Points for valid complaint raised
+- Advanced analytics dashboard
+
+---
+
 ## 📌 What the Project Does
 
 - Citizens can raise complaints with our app & also through twitter.
