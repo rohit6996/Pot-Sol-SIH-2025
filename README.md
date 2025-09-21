@@ -7,11 +7,11 @@ It connects with Twitter, Google Maps, Gmail, and PostgreSQL to provide smooth c
 
 ## SIH Details
 
-Team ID - SR2651
-Problem Statement ID    - SIH25031
-Problem Statement Title - Crowdsourced Civic lssue Reporting and Resolution System
-Category - Software
-Theme - Clean & Green Technology
+- Team ID - SR2651
+- Problem Statement ID    - SIH25031
+- Problem Statement Title - Crowdsourced Civic lssue Reporting and Resolution System
+- Category - Software
+- Theme - Clean & Green Technology
 
 
 ## 🛠 Current Stage
