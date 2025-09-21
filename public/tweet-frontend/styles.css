@@ -1,0 +1,129 @@
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: #f4f5f7;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1f2937;
+  font-weight: 600;
+}
+
+.table-wrapper {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: linear-gradient(135deg, #4f46e5, #10b981);
+  color: white;
+  font-weight: 600;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+tbody tr {
+  border-bottom: 1px solid #e5e7eb;
+  transition: background 0.3s;
+}
+
+tbody tr:hover {
+  background: #f9fafb;
+}
+
+td a {
+  color: #4f46e5;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+td .badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  text-transform: capitalize;
+}
+
+.badge.true {
+  background-color: #10b981; /* green */
+}
+
+.badge.false {
+  background-color: #ef4444; /* red */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  table, th, td {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+
+.contact-actions {
+  position: relative;
+  display: inline-block;
+}
+
+.contact-btn {
+  background: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-actions .dropdown {
+  display: none;
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  min-width: 180px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  z-index: 1;
+}
+
+.contact-actions .dropdown a {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #333;
+}
+
+.contact-actions .dropdown a:hover {
+  background: #f0f0f0;
+}
+
+/* Show dropdown on hover */
+.contact-actions:hover .dropdown {
+  display: block;
+}
