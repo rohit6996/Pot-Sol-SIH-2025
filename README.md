@@ -5,6 +5,15 @@ It connects with Twitter, Google Maps, Gmail, and PostgreSQL to provide smooth c
 
 ---
 
+## SIH Details
+
+Team ID - SR2651
+Problem Statement ID    - SIH25031
+Problem Statement Title - Crowdsourced Civic lssue Reporting and Resolution System
+Category - Software
+Theme - Clean & Green Technology
+
+
 ## 🛠 Current Stage
 
 This is our MVP (Minimum Viable Product) for the (Smart India Hackathon)SIH Internal Round.
@@ -61,3 +70,14 @@ Later, we will upgrade the system with:
     npm install
     npm run dev
     Opens app on: http://localhost:8080
+
+
+## 👨‍💻 Team Members
+
+- Rohit Bhandarkar (CSE 3rd Yr)
+- Madhav Rohankar  (CSE 3rd Yr)
+- Yash Deshkar     (CSE 3rd Yr)
+- Sarthak Kalbande (CSE 3rd Yr)
+- Harsh Maliye     (CSE 3rd Yr)
+- Shivani Mahurkar (CSE-CS 3rd Yr)
+
